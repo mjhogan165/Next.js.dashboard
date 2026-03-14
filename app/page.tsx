@@ -18,12 +18,12 @@ export default function Page() {
             className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
             <strong>Welcome to Acme.</strong> This is the example for the{" "}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
+            <a href="https://nextjs.org/learn/" className="text-green-500">
               Next.js Learn Course
             </a>
             , brought to you by Vercel.
           </p>
-          <h1 className="text-blue-500">I'm blue!</h1>
+          <h1 className="text-green-500">I'm green!</h1>
           <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
